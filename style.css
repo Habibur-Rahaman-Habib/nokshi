@@ -1,0 +1,608 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: antiquewhite;
+}
+
+.main {
+    width: 620px;
+    height: 620px;
+    background: #08174e;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 5px solid rgb(65, 8, 8);
+    margin-top: 100px;
+}
+
+/* .............................................. */
+
+.flower1 {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(214 219 253);
+}
+
+.flower1 .fl1 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    background: rgb(62 60 47);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border: 5px solid white;
+}
+
+.flower1 .circel {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px #5f433e;
+}
+
+.flower1 .fl11 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FFCA28;
+    border-radius: 14px 40px 0px 40px;
+}
+
+.flower1 .fl12 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FFC107;
+    border-radius: 40px 14px 40px 0;
+}
+
+.flower1 .fl13 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FDD835ed;
+    border-radius: 40px 0px 40px 14px;
+}
+
+.flower1 .fl14 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FFEB3B;
+    border-radius: 0px 40px 14px 40px;
+}
+
+/* ........................ */
+
+.flower2 {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: rgb(214 219 253);
+}
+
+.flower2 .fl1 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    background: rgb(62 60 47);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border: 5px solid white;
+}
+
+.flower2 .circel {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px #5f433e;
+}
+
+.flower2 .fl11 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FFCA28;
+    border-radius: 14px 40px 0px 40px;
+}
+
+.flower2 .fl12 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FFC107;
+    border-radius: 40px 14px 40px 0;
+}
+
+.flower2 .fl13 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FDD835ed;
+    border-radius: 40px 0px 40px 14px;
+}
+
+.flower2 .fl14 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FFEB3B;
+    border-radius: 0px 40px 14px 40px;
+}
+
+/* ........................ */
+
+.flower3 {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: rgb(214 219 253);
+}
+
+.flower3 .fl1 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    background: rgb(62 60 47);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border: 5px solid white;
+}
+
+.flower3 .circel {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px #5f433e;
+}
+
+.flower3 .fl11 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FFCA28;
+    border-radius: 14px 40px 0px 40px;
+}
+
+.flower3 .fl12 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FFC107;
+    border-radius: 40px 14px 40px 0;
+}
+
+.flower3 .fl13 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FDD835ed;
+    border-radius: 40px 0px 40px 14px;
+}
+
+.flower3 .fl14 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FFEB3B;
+    border-radius: 0px 40px 14px 40px;
+}
+
+/* ........................ */
+
+.flower4 {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgb(214 219 253);
+}
+
+.flower4 .fl1 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    background: rgb(62 60 47);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border: 5px solid white;
+}
+
+.flower4 .circel {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px #5f433e;
+}
+
+.flower4 .fl11 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FFCA28;
+    border-radius: 14px 40px 0px 40px;
+}
+
+.flower4 .fl12 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FFC107;
+    border-radius: 40px 14px 40px 0;
+}
+
+.flower4 .fl13 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FDD835ed;
+    border-radius: 40px 0px 40px 14px;
+}
+
+.flower4 .fl14 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #FFEB3B;
+    border-radius: 0px 40px 14px 40px;
+}
+
+/* ........................ */
+
+.container {
+    width: 300px;
+    overflow: hidden;
+    height: 300px;
+    position: absolute;
+    /* background: rgb(145, 170, 96); */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.con_circle {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    background: red;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.col_cir_1 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background: tomato;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #845d5d;
+}
+
+.col_cir_2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: yellow;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #845d5d;
+}
+
+.clear {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.wrapper {
+    width: 110px;
+    height: 110px;
+    background: tomato;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    top: 0;
+}
+
+.wrapper .div1 {
+    width: 85px;
+    height: 85px;
+    background: turquoise;
+    position: absolute;
+    box-shadow: 0px 0px 10px #845d5d;
+}
+
+.wrapper .div2 {
+    width: 60px;
+    height: 60px;
+    background: green;
+    position: absolute;
+    box-shadow: 0px 0px 10px #845d5d;
+}
+
+.wrapper .div3 {
+    width: 40px;
+    height: 40px;
+    background: #05e235;
+    position: absolute;
+    box-shadow: 0px 0px 10px #845d5d;
+}
+
+/* .................................................... */
+
+.wrapper2 {
+    width: 110px;
+    height: 110px;
+    background: #ffc107;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    top: 0;
+}
+
+.wrapper2 .div1 {
+    width: 85px;
+    height: 85px;
+    background: #e91e63;
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-shadow: 0px 0px 10px #845d5d;
+}
+
+.wrapper2 .div2 {
+    width: 60px;
+    height: 60px;
+    background: green;
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-shadow: 0px 0px 10px #845d5d;
+}
+
+.wrapper2 .div3 {
+    width: 40px;
+    height: 40px;
+    background: #05e235;
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-shadow: 0px 0px 10px #845d5d;
+}
+
+/* ............................................................ */
+
+.wrapper3 {
+    width: 110px;
+    height: 110px;
+    background: #FFC107;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    left: 0;
+}
+
+.wrapper3 .div1 {
+    width: 85px;
+    height: 85px;
+    background: #e91e63;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0px 0px 10px #845d5d;
+}
+
+.wrapper3 .div2 {
+    width: 60px;
+    height: 60px;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0px 0px 10px #845d5d;
+}
+
+.wrapper3 .div3 {
+    width: 40px;
+    height: 40px;
+    background: #05e235;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0px 0px 10px #845d5d;
+}
+
+/* ........................................................ */
+
+.wrapper4 {
+    width: 110px;
+    height: 110px;
+    background: #ff5722;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.wrapper4 .div1 {
+    width: 85px;
+    height: 85px;
+    background: #40E0D0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0px 0px 10px #845d5d;
+}
+
+.wrapper4 .div2 {
+    width: 60px;
+    height: 60px;
+    background: green;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0px 0px 10px #845d5d;
+}
+
+.wrapper4 .div3 {
+    width: 40px;
+    height: 40px;
+    background: #05e235;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0px 0px 10px #845d5d;
+}
+
+/* ............................ */
+
+.top_middle {
+    overflow: hidden;
+    width: 290px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top_middle .left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: #E72BE7;
+    border-radius: 86px 0px 86px 0px;
+}
+
+.top_middle .right {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: rgb(231, 43, 231);
+    border-radius: 0px 86px 0px 86px;
+}
+
+/* ...................................... */
+
+.bottom_middle {
+    overflow: hidden;
+    width: 290px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom_middle .left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: #E72BE7;
+    border-radius: 0px 86px 0px 86px;
+}
+
+.bottom_middle .right {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: rgb(231, 43, 231);
+    border-radius: 86px 0px 86px 0px;
+}
+
+/* ...................................... */
+
+.left_middle {
+    overflow: hidden;
+    height: 290px;
+    width: 70px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left_middle .left {
+    height: 50%;
+    width: 100%;
+    background: #E72BE7;
+    border-radius: 86px 0px 86px 0px;
+}
+
+.left_middle .right {
+    height: 50%;
+    width: 100%;
+    background: rgb(231, 43, 231);
+    border-radius: 0px 86px 0px 86px;
+}
+
+/* ...................................... */
+
+.right_middle {
+    overflow: hidden;
+    height: 290px;
+    width: 70px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right_middle .left {
+    height: 50%;
+    width: 100%;
+    background: #E72BE7;
+    border-radius: 0px 86px 0px 86px;
+}
+
+.right_middle .right {
+    height: 50%;
+    width: 100%;
+    background: rgb(231, 43, 231);
+    border-radius: 86px 0px 86px 0px;
+}
